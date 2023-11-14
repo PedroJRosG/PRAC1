@@ -15,9 +15,14 @@ pip install pandas
 pip install requests
 pip install lxml
 pip install beautifulsoup4
+pip install csv
+pip install pandas
+pip install json
+pip install webdriver
+
 El script se debe ejecutar de la siguiente manera:
 
-python foodPriceScraper.py
+python webTrapping_enalquiler.py
 
 Los registros se almacenan en un archivo de tipo CSV (salida.cvs)
 Para la realizacion de la extracion de los datos  se ha utilizado Selenium.
