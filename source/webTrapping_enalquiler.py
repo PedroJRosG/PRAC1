@@ -14,14 +14,14 @@ opts.add_argument("--headless")
 driver = webdriver.Chrome(service = Service(ChromeDriverManager().install()), options=opts)
 driver.get('https://www.enalquiler.com/search?provincia=16')
 #se define la paginacion maxima
-PAGINACION_MAX = 100
+PAGINACION_MAX = 100 #para evitar saturar el sevidor
 PAGINACION_ACTUAL = 1
 
 list_inmuebles = [] #Estructura de datos con la  lista final de inmuebles
-sleep(3)
+sleep(3) #para evitar saturar el sevidor
 
 while PAGINACION_MAX > PAGINACION_ACTUAL:
-    sleep(2)
+    sleep(2) #para evitar saturar el sevidor
     #Extraemos los link de cada inmueble
     links_inmuebles = driver.find_elements(By.XPATH,'//a[@class="qa-search-tituloCard-exist propertyCard__description--title"]')
     links_de_la_pagina = []
