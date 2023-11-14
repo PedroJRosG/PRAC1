@@ -1,6 +1,10 @@
 # PRAC1
  TIPOLOGIA_DATOS
-
+ALUMNO: Pedro José Ros Gómez
+URL WEB : https://www.enalquiler.com/search?provincia=16
+Repositorio: https://github.com/PedroJRosG/PRAC1.git
+Datos de salida: https://zenodo.org/uploads/10127244
+DOI: md5:8c1a5976fa371add9310f72aa94cae1e 
 Extrae la información de los inmuebles que se encuentran en alquiler en la provincia de Ciudad Real.
 
 Para ejecutar el script es necesario instalar la siguientes bibliotecas:
