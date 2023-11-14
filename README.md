@@ -25,3 +25,4 @@ Se ha tenido que introducir por  el código parámetros en la  cabecera de la pe
 para evitar la detección y el baneo
 
 Se ha realizado una extracción de la información  tanto horizontal como vertical de todos los inmuebles y teniendo en cuenta la  paginación.
+Posteriormente se realizara una limpieza y reenombrado de las columnas, ya que la extraccion de los datos no me lo permitia.Toda la informacion obtenida es la deseada para el analisis posterior de los inmuebles.
