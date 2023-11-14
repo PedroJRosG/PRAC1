@@ -1,10 +1,14 @@
 # PRAC1
  TIPOLOGIA_DATOS
+
+
 ALUMNO: Pedro José Ros Gómez
 URL WEB : https://www.enalquiler.com/search?provincia=16
 Repositorio: https://github.com/PedroJRosG/PRAC1.git
 Datos de salida: https://zenodo.org/uploads/10127244
 DOI: md5:8c1a5976fa371add9310f72aa94cae1e 
+
+
 Extrae la información de los inmuebles que se encuentran en alquiler en la provincia de Ciudad Real.
 
 Para ejecutar el script es necesario instalar la siguientes bibliotecas:
@@ -25,8 +29,8 @@ python webTrapping_enalquiler.py
 Los registros se almacenan en un archivo de tipo CSV (salida.cvs)
 Para la realización de la extracción de los datos  se ha utilizado Selenium.
 Se trata de una pagina dinámica y por tanto de difícil extraccion.
-Se ha tenido que introducir por  el código parámetros en la  cabecera de la peticion
-para evitar la detección y el baneo
+Se ha tenido que introducir por  el código parámetros en la  cabecera de la peticion para evitar la detección y el baneo.
 
 Se ha realizado una extracción de la información  tanto horizontal como vertical de todos los inmuebles y teniendo en cuenta la  paginación.
+
 Posteriormente se realizara una limpieza y reenombrado de las columnas, ya que la extraccion de los datos no me lo permitia.Toda la informacion obtenida es la deseada para el analisis posterior de los inmuebles.
