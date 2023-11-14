@@ -30,4 +30,4 @@ Se trata de una pagina dinamica y por tanto de dificil extraccion.
 Se ha tenido que introducir en el codigo parametros de cabecera de la peticion
 para eviatar la deteccion y el baneo
 
-Se ha realizado una extraccion tanto lineal como vertical con paginacion.
+Se ha realizado una extraccion de la informacin  tanto horizontal como vertical de todos los inmuebles y teniendo en cuenta la  paginación.
